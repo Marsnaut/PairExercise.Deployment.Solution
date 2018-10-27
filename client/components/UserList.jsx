@@ -5,6 +5,7 @@ export default ({ users }) => (
   <div className="user-list">
 
     <p className='lead'>Here's a list of {users.length} completely fictitious people:</p>
+    <p className='lead'>If you can see this, the deploy was successful thanks to Travis</p>
 
     <table className="table">
       <tbody>
